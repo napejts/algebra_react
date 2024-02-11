@@ -36,3 +36,122 @@
     transform: rotate(360deg);
   }
 }
+
+
+.github-profile-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-wrapper input {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.input-wrapper button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00f4ec;
+  color: #000;
+  cursor: pointer;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+
+
+.avatar{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center; 
+  font-size: 40px;
+}
+
+.inline{
+  display: inline-flex;
+  gap: 10px;
+}
+
+
+.name-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name-container p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.repository-list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+table {
+  border: 2px solid green;
+  min-width: 400px;
+  max-width: 900px;
+  width: auto;
+  height: 200px;
+}
+
+td {
+  text-align: center;
+  border: 2px solid green;
+}
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-text{
+  text-align: center;
+}
+
+
+
+
